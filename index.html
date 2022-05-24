@@ -9,24 +9,46 @@
         <link rel="icon" href="img/logo.png" type="image/x-icon">
     </head>
     <body>
+
         <!-- Intestazione pagina -->
         <header>
-            <img src="img/Logo.png" alt="Logo Toboolist">
+            <img class="logo" src="img/Logo.png" alt="Logo Toboolist">
             <h1>Toboolist</h1>
         </header>
+
         <!-- Corpo pagina -->
         <main>
             <!-- Task Bar -->
-            <nav>
-                <button>Add Task</button>
-                <button>Add a Section</button>
-            </nav>
-            <!-- Task -->
-            <div>
-                <section></section>
-                <section></section>
-                <section></section>
+
+            <div class="nav-task">
+                <button class="button" id="add-task">Add Task</button>
+                <button class="button" id="add-section">Add a Section</button>
             </div>
+
+                <!-- Task -->
+            <div class="task">
+                <div>
+                    <h3>New Task</h3>
+                    <p>Quarterly Newsletter <span class="type editorial">Editorial</span></p>     
+                </div>
+
+                <div>
+                    <h3>Today</h3>
+                    <p>Recruiting blog post <span class="type editorial">Editorial</span></p>
+                    <p>Mobile app launch <span class="type q1">Q1 Goals</span></p>
+                    <p class="cross">Interview John H. <span class="type recruiting">Recruiting</span></p>
+                    <p>Summit update to mobile storefronts <span class="type mobile">Mobile</span></p>
+                </div>
+
+                <div>
+                    <h3>Upcoming</h3>
+                    <p class="cross">Quarterly Newsletter</p>         
+                    <p>Quarterly Newsletter <span class="type website">Website</span></p>         
+                    <p>Quarterly Newsletter <span class="type sales">Sales</span></p>         
+                    <p>Quarterly Newsletter <span class="type editorial">Editorial</span></p>     
+                </div>
+            </div>
+
         </main>
     </body>
 </html>
