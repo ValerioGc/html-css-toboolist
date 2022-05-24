@@ -73,7 +73,11 @@ li {
 .r {
     border-color: red;
 }
-#r, #r2::before {
+#r1::before{
+    content:"\2717";
+    color:red;
+}
+#r2::before {
     content: '\2717';
     color: red;
 }
