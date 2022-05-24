@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #b1bbf8;
+}
+
+header {
+    
+}
+
+main {
+    width:75%;
+}
+
+nav{
+    margin-bottom:3px;
+    border-radius: 25%;
+}
