@@ -3,52 +3,86 @@
     margin: 0;
     padding: 0;
 }
-
 body {
     background-color: #b1bbf8;
 }
-
-header {
-}
-
 header>h1{
     display:inline-block;
 }
-
 main {
     width:75%;
-    height:80vh;
+    height:100vh;
     margin:5px auto;
 }
-
+header, main, .nav-task {
+    background-color: #fff;
+}
+/* TaskBar e bottoni */
 .nav-task{
     border-radius: 5px 5px 0 0 ;
     height:50px;
     width: 75%;
     margin:50px auto 5px auto;
-
+    padding: 2% 10%;
 }
-
-header, main, .nav-task{
-    background-color: #fff;
+button{
+    font-size: 10px;
+    padding:3px 10px;
+    margin-right: 4px;
+    border-radius: 3px;
 }
-.task{
+#add-task{
+    background-color: #45abea;
+    color:#fff;
+    border:#45abea;
 }
-
-li{
-    list-style: none;
+#add-section{
+    color:rgb(147, 147, 147);
+    border: 1px solid rgb(147, 147, 147);
 }
-
-h3{
-    font-size: 20px;
-    color: #000;
-    margin-left: 5px;
+/* Corpo pagina */
+.task {
+    margin-left: 10%;
+    padding: 20px;
+}
+h3 {
+    font-size: 18px;
+    margin:2% 0 2% 0;
 }
 h3::before {
     content: '\25bc';
+    font-size: 15px;
+    margin-right:2px;
+}
+li {
+    font-size:14px;
+    list-style: none;
+    display: inline-block;
+    margin:8px;
+}
+/* Simboli  */
+.round {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid green;
+    display: inline-block;
+    text-align: center;
+    line-height: 20px;
+}
+.r {
+    border-color: red;
+}
+#r, #r2::before {
+    content: '\2717';
+    color: red;
+}
+.plholder::before {
+    content: '\2713';
+    color: green;
 }
 /* Tipi */
-.type{
+.type {
     margin-left: 5px;
     border-radius:15%;
     padding: 5px;
@@ -56,37 +90,21 @@ h3::before {
     color: white;
 }
 /* Colori Tipo */
-.editorial{
+.editorial {
     background-color: #45abea;
 }
-.q1{
+.q1 {
     background-color: #9c72e4;
 }
-.recruiting{
+.recruiting {
     background-color: #64c0a9;
 }
-.mobile{
+.mobile {
     background-color: #f29e33;
 }
-.website{
+.website {
     background-color: #d863a1;
 }
-.sales{
+.sales {
     background-color: #b0c926;
 }
-
-.tasksec
-}
-
-li::before{
-    content: '\2713';
-    color: green;
-    margin-right: 5px;
-}
-
-.cross::before{
-    content: "\2717";
-    color: red;
-    margin-right: 5px;
-}
-
