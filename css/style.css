@@ -8,8 +8,7 @@ body {
     background-color: #b1bbf8;
 }
 
-.logo,
-h1 {
+.logo, h1 {
     vertical-align: middle;
 }
 
@@ -19,13 +18,11 @@ header>h1 {
 
 main {
     width: 75%;
-    height: 100vh;
+    height: 70vh;
     margin: 5px auto;
 }
 
-header,
-main,
-.nav-task {
+header, main, .nav-task {
     background-color: #fff;
 }
 
@@ -105,7 +102,6 @@ li {
     font-size: 12px;
     color: white;
 }
-
 /* Colori Tipo */
 .editorial {
     background-color: #45abea;
